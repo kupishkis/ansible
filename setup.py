@@ -57,12 +57,12 @@ setup(name='ansible',
          '': ['module_utils/*.ps1'],
       },
       scripts=[
-         'bin/ansible',
-         'bin/ansible-playbook',
-         'bin/ansible-pull',
-         'bin/ansible-doc',
-         'bin/ansible-galaxy',
-         'bin/ansible-vault',
+         'bin/kupible',
+         'bin/kupible-playbook',
+         'bin/kupible-pull',
+         'bin/kupible-doc',
+         'bin/kupible-galaxy',
+         'bin/kupible-vault',
       ],
       data_files=data_files
 )
